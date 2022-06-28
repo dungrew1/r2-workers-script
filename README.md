@@ -5,10 +5,11 @@ To take advantage of those no egress charges 🤤
 
 What it does
 - Parses URLs to logical filenames to look up in your R2 bucket. For example:
- *Example.com will become index.html
- *Example.com/example1 will become example1.html
- *Example.com/example2/example2 will become /example2/index.html
- *Example.com/image.png will become /image.png
+
+   * Example.com will become index.html
+   * Example.com/example1 will become example1.html
+   * Example.com/example2/example2 will become /example2/index.html
+   * Example.com/image.png will become /image.png
         
 - Caches found URLs in Cloudflare cache.
 - Handles 404 responses for files that don't exist.
